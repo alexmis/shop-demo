@@ -1,0 +1,9 @@
+package org.mial.repository;
+
+import org.mial.domain.Author;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+
+public interface AuthorRepository extends JpaRepository<Author, String> {
+
+}
